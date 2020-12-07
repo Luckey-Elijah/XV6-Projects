@@ -1,0 +1,83 @@
+#  Image files
+*img
+
+# and other build items
+user\bin\forktest
+bootother
+fs.img
+fs/README
+fs/cat
+fs/echo
+fs/forktest
+fs/grep
+fs/init
+fs/kill
+fs/ln
+fs/ls
+fs/mkdir
+fs/rm
+fs/sh
+fs/stressfs
+fs/tester
+fs/usertests
+fs/wc
+fs/zombie
+initcode
+kernel/bootblock
+kernel/kernel
+kernel/vectors.S
+tools/mkfs
+user/bin/forktesxv6.img
+
+# Prerequisites
+*.d
+
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Linker output
+*.ilk
+*.map
+*.exp
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Kernel Module Compile Results
+*.mod*
+*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+Mkfile.old
+dkms.conf
